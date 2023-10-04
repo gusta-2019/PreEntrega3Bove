@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
+    background: url(../img/avionForm.jpg);
+    background-size: cover;
+}
+
+.principal h1{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 0px;
+    padding: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 70px;
+    color: rgb(73, 44, 161);
+}
+
+.container {
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-left: 300px;
+}
+
+#mensaje{
+    background-color:red;
+    text-align: center;
+    padding-top: 5px;
+    height: 20px;
+    color: white;
+}
+
+.form {
+    margin-bottom: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+h3 {
+    color: #575aa2;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+label {
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"],
+input[type="password"],
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.blue-button {
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.blue-button:hover {
+    background-color: #0056b3;
+}
+
+#loggedIn {
+    text-align: center;
+}
+
+#loggedInUser {
+    font-weight: bold;
+    color: #007BFF;
+}
+
+#showRegistrationForm,
+#showLoginForm {
+    display: block;
+    width: 100%;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#showRegistrationForm:hover,
+#showLoginForm:hover {
+    background-color: #0056b3;
+}
